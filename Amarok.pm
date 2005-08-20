@@ -7,7 +7,7 @@ use warnings;
 require DCOP;
 our @ISA = qw(DCOP);
 
-our $VERSION = '0.03';
+our $VERSION = '0.031';
 
 sub new {
 	my $proto = shift;
