@@ -7,9 +7,9 @@ use warnings;
 require DCOP;
 our @ISA = qw(DCOP);
 
-our $VERSION = '0.035';
+our $VERSION = '0.036';
 
-sub new {
+sub new() {
 	my $proto = shift;
 	my $class = ref($proto) || $proto;
 	my %params = @_;
